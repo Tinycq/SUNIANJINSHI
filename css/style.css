@@ -1,0 +1,157 @@
+body {
+    background-color: #f4fbfd;
+    background-image: url(../images/background.png);
+    padding-top: 30px;
+    color: #fff;
+}
+.chartcontainer {
+    height: 400px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#sky {
+    /*测试 */
+}
+.su_title {
+    height: 108px;
+    width: 380px;
+    text-indent: -9999px;
+    background: url(../images/sulogo.png) no-repeat -2px 0;
+    margin: 20px auto;
+    display: block;
+}
+@media screen and (max-width: 400px) {
+    .su_title {
+        width: 100%;
+        background: url(../images/sulogo350.png) no-repeat -2px 0;
+        margin: 10 auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 350px) {
+    .su_title {
+        width: 100%;
+        background: url(../images/sulogo300.png) no-repeat -2px 0;
+        margin: 10 auto;
+        display: block;
+    }
+}
+@media screen and (max-width: 300px) {
+    .su_title {
+        width: 100%;
+        background: url(../images/sulogo250.png) no-repeat -2px 0;
+        margin: 10 auto;
+        display: block;
+    }
+}
+.label_title {
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 1px 1px #291314;
+}
+.index_box {
+    width: 60%;
+    height: 450px;
+    margin: 0 auto;
+    padding: 100px 20px 0 20px;
+}
+@media screen and (max-width: 1200px) {
+    .index_box {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 560px) {
+    .index_box {
+        width: 100%;
+    }
+}
+/*myclass*/
+
+.user_info {
+    margin: 30px 20px 15px 0;
+    float: left;
+}
+.avatar {
+    float: left;
+    width: 140px;
+    height: 140px;
+}
+.welcome_info {
+    float: left;
+    width: 190px;
+}
+.name {
+    font-size: 32px;
+    float: left;
+    clear: right;
+}
+.welcome {
+    display: ;
+    float: left;
+}
+/*footer*/
+
+.copyright {
+    color: #ddd;
+    margin-top: 30px;
+}
+#judgearea {
+    clear: both;
+}
+.holiday {
+    margin: 12px 0 20px 15px;
+}
+.judgeprocess {
+    padding: 6px;
+    /*    border: 1px solid #dddddd;*/
+    float: left;
+    margin-left: 10px;
+    width: 100%
+}
+.progress_style {
+    margin-top: 10px;
+}
+#datearea {
+    margin-top: 21px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.activity_box {
+    border: 2px dashed #ddd;
+    height: auto;
+    min-height: 560px;
+    width: auto;
+    background: url(../images/basketball.jpg) no-repeat 2px 0px;
+    margin: 20px 0 30px 0px;
+    overflow: hidden;
+    zoom: 1
+   padding-top: 56.56%;  /* 681px/1204px = 0.5656 */
+  background-size: cover;
+  background-position: center;  /* Internet Explorer 7/8 */
+}
+.activity_box a{
+    color: #fff;
+}
+.activity_box a:hover{
+    color: #bbbbbb;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+.activity_init {
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+.activity_item {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+.imgshow {
+
+}
+.index_box {} .footer-info {
+    color: #353a3f;
+    text-shadow: 1px 1px 1px #ddd;
+}
